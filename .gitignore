@@ -1,0 +1,7 @@
+*.mp4
+*.webm
+data
+venv
+.idea
+__pycache__
+credentials.py
