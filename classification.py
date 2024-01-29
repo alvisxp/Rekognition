@@ -7,7 +7,7 @@ import credentials
 client = boto3.client('rekognition', aws_access_key_id=credentials.access_key,
                       aws_secret_access_key=credentials.secret_key)
 
-cap = cv2.VideoCapture("./joe.webm")
+cap = cv2.VideoCapture("./car.mp4")
 
 ret = True
 while ret:
